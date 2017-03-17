@@ -1,0 +1,133 @@
+  :root {
+    --annotation-color: rgba(255,255,255,.5);
+    --annotation-opacity: .9;
+  }
+
+  body {
+    margin: 0;
+    background: #111;
+    font-family: helvetica, arial, sans-serif;
+    font-size: .6rem;
+  }
+  svg { float: right; }
+  .links line {
+    stroke: #999;
+    stroke-opacity: 0.8;
+  }
+
+  .legendSize text {
+      fill: #fff;
+      font-weight: 300;
+      stroke: none;
+  }
+
+  .annotation-note-label {
+    paint-order: stroke;
+    stroke-width: 2px;
+    stroke-linecap: butt;
+    stroke-linejoin: miter;
+    fill: #000;
+    font-weight: 700;
+
+  }
+  rect.rectangle { opacity: 0
+  }
+  rect.rectangle.level-2,
+  rect.rectangle.level-3,
+  rect.rectangle.level-4,
+  text.label.level-2,
+  text.label.level-3,
+  text.label.level-4 {
+    display: none;
+  }
+
+  .nodes circle {
+    fill: rgba(0,0,0,.8);
+    stroke-width: 1.5px;
+  }
+  .nodes circle:hover {
+    cursor: pointer;
+  }
+
+  .annotation path {
+    /*stroke: var(--annotation-color);*/
+    opacity: var(--annotation-opacity);
+    fill: rgba(0,0,0,0);
+  }
+
+  .annotation path.connector-arrow{
+    opacity: var(--annotation-opacity);
+  }
+
+  .annotation-title { font-weight: bold; }
+
+  .annotation-note-bg {
+    fill: rgba(255, 255, 255, 0);
+  }
+  .annotation.major {
+    font-weight: 900;
+    font-size: 1em;
+  }
+
+  .annotation-note-label tspan { text-anchor: middle; }
+
+  .group-0 path, .group-0 text  { stroke: #1f77b4; }
+  .group-1 path, .group-1 text  { stroke: #aec7e8; }
+  .group-2 path, .group-2 text  { stroke: #ff7f0e; }
+  .group-3 path, .group-3 text  { stroke: #ffbb78; }
+  .group-4 path, .group-4 text  { stroke: #2ca02c; }
+  .group-5 path, .group-5 text  { stroke: #98df8a; }
+  .group-6 path, .group-6 text  { stroke: #d62728; }
+  .group-7 path, .group-7 text  { stroke: #ff9896; }
+  .group-8 path, .group-8 text  { stroke: #9467bd; }
+  .group-9 path, .group-9 text  { stroke: #c5b0d5; }
+  .group-10 path, .group-10 text { stroke: #8c564b; }
+  .group-11 path, .group-11 text { stroke: #c49c94; }
+  .group-12 path, .group-12 text { stroke: #e377c2; }
+  .group-13 path, .group-13 text { stroke: #f7b6d2; }
+  .group-14 path, .group-14 text { stroke: #7f7f7f; }
+
+  .group-0 path.connector-arrow  { fill: #1f77b4; }
+  .group-1 path.connector-arrow  { fill: #aec7e8; }
+  .group-2 path.connector-arrow  { fill: #ff7f0e; }
+  .group-3 path.connector-arrow  { fill: #ffbb78; }
+  .group-4 path.connector-arrow  { fill: #2ca02c; }
+  .group-5 path.connector-arrow  { fill: #98df8a; }
+  .group-6 path.connector-arrow  { fill: #d62728; }
+  .group-7 path.connector-arrow  { fill: #ff9896; }
+  .group-8 path.connector-arrow  { fill: #9467bd; }
+  .group-9 path.connector-arrow  { fill: #c5b0d5; }
+  .group-10 path.connector-arrow { fill: #8c564b; }
+  .group-11 path.connector-arrow { fill: #c49c94; }
+  .group-12 path.connector-arrow { fill: #e377c2; }
+  .group-13 path.connector-arrow { fill: #f7b6d2; }
+  .group-14 path.connector-arrow { fill: #7f7f7f; }
+
+  /* tips */
+  .d3-tip {
+    line-height: 1;
+    padding: 6px;
+    border: 1px solid rgba(255,255,255, 0.8);
+    background: rgba(0,0,0, 0.8);
+    color: #FFF;
+  }
+
+  /* Creates a small triangle extender for the tooltip */
+  .d3-tip:after {
+    box-sizing: border-box;
+    display: inline;
+    width: 100%;
+    line-height: 1;
+    color: rgba(0,0,0, 0.8);
+    content: "\25BC";
+    position: absolute;
+    text-align: center;
+  }
+
+  /* Style northward tooltips specifically */
+  .d3-tip.n:after {
+    margin: -2px 0 0 0;
+    top: 100%;
+    left: 0;
+  }
+

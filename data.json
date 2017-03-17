@@ -1,0 +1,1160 @@
+{
+  "-description": "Results from all the EBI resources",
+  "domains": [{
+    "subdomains": {
+      "domain": [{
+        "-description": "Database of Genomic Variants Archive",
+        "indexInfos": {
+          "indexInfo": [{
+            "#text": "42992846"}, {
+            "#text": "https://www.ebi.ac.uk/dgva"}, {
+            "#text": "2 GB"}, {
+            "#text": "2599772718"}, {"#text": "false"}]
+        }
+      }, {
+        "-description": "The European Genome-phenome Archive",
+        "indexInfos": {
+          "indexInfo": [{
+            "#text": "1900"}, {
+            "#text": "http://www.ebi.ac.uk/ega"}, {
+            "#text": "7 MB"}, {
+            "#text": "7425231"}, {"#text": "false"}]
+        }
+      }, {
+        "-description": "HUGO Gene Nomenclature Committee",
+        "indexInfos": {
+          "indexInfo": [{
+              "#text": "45075"}, {
+              "#text": "http://www.genenames.org/"}, {
+              "#text": "10 MB"}, {
+              "#text": "10589992"}, {"#text": "false"}
+          ]
+        }
+      }, {
+        "-description": "A stable genomic reference framework for describing sequence variations",
+        "indexInfos": {
+          "indexInfo": [{
+            "#text": "961"}, {
+            "#text": "http://www.lrg-sequence.org/"}, {
+            "#text": "896 KB"}, {
+            "#text": "917808"}, {"#text": "false"}]
+        }
+      }, {
+        "-description": "Metagenomics is the study of all genomes present in any given environment without the need for prior individual identification or amplification.",
+        "indexInfos": {
+          "indexInfo": [{
+            "#text": "937"}, {
+            "#text": "https://www.ebi.ac.uk/metagenomics/"}, {
+            "#text": "2 MB"}, {
+            "#text": "2539495"}, {"#text": "false"}]
+        }
+      }, {
+        "-description": "Metagenomics is the study of all genomes present in any given environment without the need for prior individual identification or amplification.",
+        "indexInfos": {
+          "indexInfo": [{
+            "#text": "77326"}, {
+            "#text": "https://www.ebi.ac.uk/metagenomics/"}, {
+            "#text": "1 GB"}, {
+            "#text": "1267999409"}, {"#text": "false"}]
+        }
+      }, {
+        "-description": "Metagenomics is the study of all genomes present in any given environment without the need for prior individual identification or amplification.",
+        "indexInfos": {
+          "indexInfo": [{
+            "#text": "57976"}, {
+            "#text": "https://www.ebi.ac.uk/metagenomics/"}, {
+            "#text": "11 MB"}, {
+            "#text": "12543557"}, {"#text": "false"}]
+        }
+      }, {
+        "-description": "root for the Ensembl domains",
+        "subdomains": {
+          "domain": [{
+            "-description": "PomBase",
+            "indexInfos": {
+              "indexInfo": [{
+                "#text": "6995"}, {
+                "#text": "http://www.pombase.org/"}, {
+                "#text": "12 MB"}, {
+                "#text": "12625232"}, {"#text": "false"}]
+            }
+          }, {
+            "-description": "Selected eukaryotic genomes",
+            "subdomains": {
+              "domain": {
+                "-description": "Ensembl Gene",
+                "indexInfos": {
+                  "indexInfo": [{
+                      "#text": "2466658"},
+                    {
+                      "#text": "https://www.ensembl.org"}, {
+                      "#text": "2 GB"}, {
+                      "#text": "2948818307"}, {"#text": "false"}
+                  ]
+                }
+              }
+            }
+          }, {
+            "-description": "Non-vertebrate genomes of high scientific interest",
+            "subdomains": {
+              "domain": [{
+                "-description": "Ensembl Genomes Gene",
+                "indexInfos": {
+                  "indexInfo": [{
+                    "#text": "162309705"}, {
+                    "#text": "https://www.ensembl.org"}, {
+                    "#text": "68 GB"}, {
+                    "#text": "73734152480"}, {"#text": "false"}]
+                }
+              }, {
+                "-description": "Ensembl Genomes Genome",
+                "indexInfos": {
+                  "indexInfo": [{
+                    "#text": "42528"}, {
+                    "#text": "https://www.ensembl.org"}, {
+                    "#text": "13 MB"}, {
+                    "#text": "14587799"}, {
+                    "#text": "true"}]
+                }
+              }, {
+                "-description": "Ensembl Genomes Sequence Region",
+                "indexInfos": {
+                  "indexInfo": [{
+                    "#text": "23179374"}, {
+                    "#text": "https://www.ensembl.org"}, {
+                    "#text": "1 GB"}, {
+                    "#text": "1907906359"}, {
+                    "#text": "true"}]
+                }
+              }, {
+                "-description": "Ensembl Genomes Variant",
+                "indexInfos": {
+                  "indexInfo": [{
+                    "#text": "232210138"}, {
+                    "#text": "https://www.ensembl.org"}, {
+                    "#text": "12 GB"}, {
+                    "#text": "13480829911"}, {
+                    "#text": "true"}]
+                }
+              }, {
+                "-description": "WormBase ParaSite",
+                "indexInfos": {
+                  "indexInfo": [{
+                    "#text": "2509935"}, {
+                    "#text": "http://parasite.wormbase.org"}, {
+                    "#text": "928 MB"}, {
+                    "#text": "973256817"}, {"#text": "false"}]
+                }
+              }]
+            }
+          }]
+        }
+      }]
+    }
+  }, {
+    "subdomains": {
+      "domain": [{
+        "-description": "INSDC Project records from the European Nucleotide Archive",
+        "indexInfos": {
+          "indexInfo": [{
+            "#text": "195250"}, {
+            "#text": "https://www.ebi.ac.uk/ena"}, {
+            "#text": "66 MB"}, {
+            "#text": "69649297"}, {"#text": "false"}]
+        }
+      }, {
+        "-description": "Europe's primary nucleotide sequence resource",
+        "subdomains": {
+          "domain": [{
+            "subdomains": {
+              "domain": [{
+                "indexInfos": {
+                  "indexInfo": [{
+                    "#text": "198426387"}, {
+                    "#text": "https://www.ebi.ac.uk/ena"}, {
+                    "#text": "56 GB"}, {
+                    "#text": "60519994590"}, {"#text": "false"}]
+                }
+              }, {
+                "indexInfos": {
+                  "indexInfo": [{
+                      "#text": "38162464"}, {
+                      "#text": "https://www.ebi.ac.uk/ena"}, {
+                      "#text": "9 GB"}, {
+                      "#text": "10071915344"}, {"#text": "false"}
+                  ]
+                }
+              }]
+            }
+          }, {
+            "subdomains": {
+              "domain": [{
+                "indexInfos": {
+                  "indexInfo": [{
+                    "#text": "1512973"}, {
+                    "#text": "https://www.ebi.ac.uk/ena"}, {
+                    "#text": "687 MB"}, {
+                    "#text": "721320988"}, {"#text": "false"}]
+                }
+              }, {
+                "indexInfos": {
+                  "indexInfo": [{
+                    "#text": "194116"}, {
+                    "#text": "https://www.ebi.ac.uk/ena"}, {
+                    "#text": "86 MB"}, {
+                    "#text": "90649696"}, {"#text": "false"}]
+                }
+              }]
+            }
+          }, {
+            "indexInfos": {
+              "indexInfo": [{
+                  "#text": "44032859"},{
+                  "#text": "https://www.ebi.ac.uk/ena"}, {
+                  "#text": "6 GB"}, {
+                  "#text": "6541249848"}, {"#text": "false"}
+              ]
+            }
+          }]
+        }
+      }, {
+        "-description": "Non Coding",
+        "subdomains": {
+          "domain": [{
+            "indexInfos": {
+              "indexInfo": [{
+                  "#text": "15872819"},{
+                  "#text": "https://www.ebi.ac.uk/ena"}, {
+                  "#text": "4 GB"}, {
+                  "#text": "5149061355"}, {"#text": "false"}
+              ]
+            }
+          }, {
+            "indexInfos": {
+              "indexInfo": [{
+                  "#text": "502126"},{
+                  "#text": "https://www.ebi.ac.uk/ena"}, {
+                  "#text": "171 MB"}, {
+                  "#text": "179983613"}, {"#text": "false"}
+              ]
+            }
+          }]
+        }
+      }, {
+        "-description": "Next generation sequencing raw data repository from the European Nucleotide Archive",
+        "subdomains": {
+          "domain": [{
+            "-description": "Next generation sequencing raw data repository from the European Nucleotide Archive (study part)",
+            "indexInfos": {
+              "indexInfo": [{
+                  "#text": "98047"},{
+                  "#text": "https://www.ebi.ac.uk/ena"}, {
+                  "#text": "29 MB"}, {
+                  "#text": "30808404"}, {"#text": "false"}
+              ]
+            }
+          }, {
+            "-description": "Next generation sequencing raw data repository from the European Nucleotide Archive (sample part)",
+            "indexInfos": {
+              "indexInfo": [{
+                  "#text": "2405653"},{
+                  "#text": "https://www.ebi.ac.uk/ena"}, {
+                  "#text": "283 MB"}, {
+                  "#text": "296888761"}, {"#text": "false"}
+              ]
+            }
+          }, {
+            "-description": "Next generation sequencing raw data repository from the European Nucleotide Archive (run part)",
+            "indexInfos": {
+              "indexInfo": [{
+                  "#text": "3050412"},{
+                  "#text": "https://www.ebi.ac.uk/ena"}, {
+                  "#text": "316 MB"}, {
+                  "#text": "332104638"}, {"#text": "false"}
+              ]
+            }
+          }, {
+            "-description": "Next generation sequencing raw data repository from the European Nucleotide Archive (experiment part)",
+            "indexInfos": {
+              "indexInfo": [{
+                  "#text": "2689618"},{
+                  "#text": "https://www.ebi.ac.uk/ena"}, {
+                  "#text": "453 MB"}, {
+                  "#text": "475588318"}, {"#text": "false"}
+              ]
+            }
+          }, {
+            "-description": "Next generation sequencing raw data repository from the European Nucleotide Archive (analysis part)",
+            "indexInfos": {
+              "indexInfo": [{
+                  "#text": "73737"},{
+                  "#text": "https://www.ebi.ac.uk/ena"}, {
+                  "#text": "7 MB"}, {
+                  "#text": "8141673"}, {"#text": "false"}
+              ]
+            }
+          }, {
+            "-description": "Next generation sequencing raw data repository from the European Nucleotide Archive (submission part)",
+            "indexInfos": {
+              "indexInfo": [{
+                  "#text": "798610"},{
+                  "#text": "https://www.ebi.ac.uk/ena"}, {
+                  "#text": "49 MB"}, {
+                  "#text": "51762961"}, {"#text": "false"}
+              ]
+            }
+          }]
+        }
+      }, {
+        "-description": "Patent Nucleotides",
+        "subdomains": {
+          "domain": [{
+            "-description": "Non-Redundant Patent Nucleotide Sequence Level 1",
+            "indexInfos": {
+              "indexInfo": [{
+                "#text": "12349772"}, {
+                "#text": "https://www.ebi.ac.uk/patentdata"}, {
+                "#text": "1 GB"}, {
+                "#text": "1315522109"}, {"#text": "false"}]
+            }
+          }, {
+            "-description": "Non-Redundant Patent Nucleotide Sequence Level 2",
+            "indexInfos": {
+              "indexInfo": [{
+                "#text": "15009374"}, {
+                "#text": "https://www.ebi.ac.uk/patentdata"}, {
+                "#text": "1 GB"}, {
+                "#text": "1674312312"}, {"#text": "false"}]
+            }
+          }]
+        }
+      }, {
+        "-description": "European Nucleotide Archive(Whole Genome Shotgun Set)",
+        "indexInfos": {
+          "indexInfo": [{
+            "#text": "88495"}, {
+            "#text": "https://www.ebi.ac.uk/ena"}, {
+            "#text": "19 MB"}, {
+            "#text": "19954467"}, {"#text": "false"}]
+        }
+      }, {
+        "indexInfos": {
+          "indexInfo": [{
+            "#text": "2146"}, {
+            "#text": "https://www.ebi.ac.uk/ena"}, {
+            "#text": "628 KB"}, {
+            "#text": "643147"}, {"#text": "false"}]
+        }
+      }, {
+        "-description": "Coding",
+        "subdomains": {
+          "domain": [{
+            "indexInfos": {
+              "indexInfo": [{
+                  "#text": "252086150"},{
+                  "#text": "https://www.ebi.ac.uk/ena"}, {
+                  "#text": "73 GB"}, {
+                  "#text": "79359881027"}, {"#text": "false"}
+              ]
+            }
+          }, {
+            "indexInfos": {
+              "indexInfo": [{
+                "#text": "29688688"}, {
+                "#text": "https://www.ebi.ac.uk/ena"}, {
+                "#text": "6 GB"}, {
+                "#text": "7478408077"}, {"#text": "false"}]
+            }
+          }]
+        }
+      }, {
+        "-description": "Genome Assembly",
+        "indexInfos": {
+          "indexInfo": [{
+            "#text": "101173"}, {
+            "#text": "https://www.ebi.ac.uk/ena"}, {
+            "#text": "28 MB"}, {
+            "#text": "30113698"}, {"#text": "false"}]
+        }
+      }, {
+        "-description": "The IMGT/HLA Database provides a specialist database for sequences of the human major histocompatibility complex (HLA) and includes the official sequences for the WHO Nomenclature Committee For Factors of the HLA System.",
+        "indexInfos": {
+          "indexInfo": [{
+            "#text": "13641"}, {
+            "#text": "https://www.ebi.ac.uk/ipd/imgt/hla/"}, {
+            "#text": "1 MB"}, {
+            "#text": "1349777"}, {"#text": "false"}]
+        }
+      }, {
+        "-description": "The IPD-KIR Database provides a centralised repository for human KIR sequences. Killer-cell Immunoglobulin-like Receptors (KIR) have been shown to be highly polymorphic at the allelic and haplotypic level. KIRs are members of the immunoglobulin superfamily (IgSF) formerly called Killer-cell Inhibitory Receptors.",
+        "indexInfos": {
+          "indexInfo": [{
+            "#text": "709"}, {
+            "#text": "https://www.ebi.ac.uk/ipd/kir/"}, {
+            "#text": "70 KB"}, {
+            "#text": "71715"}, {"#text": "false"}]
+        }
+      }, {
+        "-description": "The IPD-MHC Database provides a centralised repository for sequences of the Major Histocompatibility Complex (MHC) from a number of different species. Nomenclature for MHC genes and alleles in species other than humans and mice has historically been overseen either informally by groups generating sequences, or by formal nomenclature committees set up by the International Society for Animal Genetics (ISAG). This work is now overseen by the Comparative MHC Nomenclature Committee and is supported by ISAG and the Veterinary Immunology Committee (VIC) of the International Union of Immunological Societies (IUIS).",
+        "indexInfos": {
+          "indexInfo": [{
+            "#text": "4003"}, {
+            "#text": "https://www.ebi.ac.uk/ipd/mhc/"}, {
+            "#text": "382 KB"}, {
+            "#text": "391941"}, {"#text": "false"}]
+        }
+      }, {
+        "-description": "The RNAcentral sequences are provided by a group of expert databases and supplemented by sequences from the INSDC.",
+        "indexInfos": {
+          "indexInfo": [{
+            "#text": "12214915"}, {
+            "#text": "http://rnacentral.org/"}, {
+            "#text": "5 GB"}, {
+            "#text": "6113069298"}, {"#text": "false"}]
+        }
+      }]
+    }
+  }, {
+    "subdomains": {
+      "domain": [{
+        "-description": "UniProt Knowledge Base of protein sequences",
+        "indexInfos": {
+          "indexInfo": [{
+            "#text": "78037193"}, {
+            "#text": "http://www.uniprot.org"}, {
+            "#text": "43 GB"}, {
+            "#text": "46240950498"}, {"#text": "false"}]
+        }
+      }, {
+        "-description": "UniProt Non-redundant Reference Databases",
+        "subdomains": {
+          "domain": [{
+            "-description": "UniProt Non-redundant Reference Databases - mutual sequence identity of 100%",
+            "indexInfos": {
+              "indexInfo": [{
+                  "#text": "100769378"},{
+                  "#text": "http://www.uniprot.org/help/uniref"}, {
+                  "#text": "21 GB"}, {
+                  "#text": "23515405704"}, {"#text": "false"}
+              ]
+            }
+          }, {
+            "-description": "UniProt Non-redundant Reference Databases - mutual sequence identity of >90%",
+            "indexInfos": {
+              "indexInfo": [{
+                  "#text": "52629880"},{
+                  "#text": "http://www.uniprot.org/help/uniref"}, {
+                  "#text": "15 GB"}, {
+                  "#text": "16608142488"}, {"#text": "false"}
+              ]
+            }
+          }, {
+            "-description": "UniProt Non-redundant Reference Databases - mutual sequence identity of >50%",
+            "indexInfos": {
+              "indexInfo": [{
+                  "#text": "20905476"},{
+                  "#text": "http://www.uniprot.org/help/uniref"}, {
+                  "#text": "11 GB"}, {
+                  "#text": "12418575087"}, {"#text": "false"}
+              ]
+            }
+          }]
+        }
+      }, {
+        "-description": "Patent Proteins",
+        "subdomains": {
+          "domain": [{
+            "-description": "Non-Redundant Patent Protein Sequence Level 1",
+            "indexInfos": {
+              "indexInfo": [{
+                "#text": "2630721"}, {
+                "#text": "https://www.ebi.ac.uk/patentdata"}, {
+                "#text": "297 MB"}, {
+                "#text": "311455880"}, {"#text": "false"}]
+            }
+          }, {
+            "-description": "Non-Redundant Patent Protein Sequence Level 2",
+            "indexInfos": {
+              "indexInfo": [{
+                "#text": "3771578"}, {
+                "#text": "https://www.ebi.ac.uk/patentdata"}, {
+                "#text": "429 MB"}, {
+                "#text": "449907881"}, {"#text": "false"}]
+            }
+          }, {
+            "-description": "European Patent Office",
+            "indexInfos": {
+              "indexInfo": [{
+                "#text": "3785264"}, {
+                "#text": "https://www.ebi.ac.uk/patentdata"}, {
+                "#text": "811 MB"}, {
+                "#text": "850419016"}, {"#text": "false"}]
+            }
+          }, {
+            "-description": "Japan Patent Office",
+            "indexInfos": {
+              "indexInfo": [{
+                "#text": "2114455"}, {
+                "#text": "https://www.ebi.ac.uk/patentdata"}, {
+                "#text": "410 MB"}, {
+                "#text": "430825129"}, {"#text": "false"}]
+            }
+          }, {
+            "-description": "Korean Intellectual Property Office",
+            "indexInfos": {
+              "indexInfo": [{
+                "#text": "292915"}, {
+                "#text": "https://www.ebi.ac.uk/patentdata"}, {
+                "#text": "60 MB"}, {
+                "#text": "63142779"}, {"#text": "false"}]
+            }
+          }, {
+            "-description": "United States Patent and Trademark Office",
+            "indexInfos": {
+              "indexInfo": [{
+                "#text": "4077368"}, {
+                "#text": "https://www.ebi.ac.uk/patentdata/proteins"}, {
+                "#text": "642 MB"}, {
+                "#text": "673690635"}, {"#text": "false"}]
+            }
+          }]
+        }
+      }, {
+        "-description": "Non-redundant archive of protein sequences",
+        "indexInfos": {
+          "indexInfo": [{
+            "#text": "148791725"}, {
+            "#text": "http://www.uniprot.org/uniparc/"}, {
+            "#text": "41 GB"}, {
+            "#text": "44334553770"}, {"#text": "false"}]
+        }
+      }]
+    }
+  }, {
+    "subdomains": {
+      "domain": [{
+        "-description": "The Electron Microscopy Data Bank (EMDB) is a public repository for electron microscopy density maps of macromolecular complexes and subcellular structures. It covers a variety of techniques, including single-particle analysis, electron tomography, and electron (2D) crystallography.",
+        "indexInfos": {
+          "indexInfo": [{
+            "#text": "4880"}, {
+            "#text": "https://www.ebi.ac.uk/pdbe/emdb/"}, {
+            "#text": "2 MB"}, {
+            "#text": "2307903"}, {"#text": "false"}]
+        }
+      }, {
+        "-description": "Macromolecular structures database",
+        "indexInfos": {
+          "indexInfo": [{
+            "#text": "107958"}, {
+            "#text": "https://www.ebi.ac.uk/pdbe"}, {
+            "#text": "116 MB"}, {
+            "#text": "121641133"}, {"#text": "false"}]
+        }
+      }]
+    }
+  }, {
+    "subdomains": {
+      "domain": [{
+        "-description": "Chemical Entities of Biological Interest",
+        "indexInfos": {
+          "indexInfo": [{
+            "#text": "103284"}, {
+            "#text": "https://www.ebi.ac.uk/chebi"}, {
+            "#text": "147 MB"}, {
+            "#text": "154166887"}, {"#text": "false"}]
+        }
+      }, {
+        "-description": "Database of bioactive drug-like small molecules",
+        "subdomains": {
+          "domain": [{
+            "-description": "Activity values or end-points that are the results of an assay recorded in a scientific document.",
+            "indexInfos": {
+              "indexInfo": [{
+                  "#text": "14371197"},{
+                  "#text": "https://www.ebi.ac.uk/chembl"}, {
+                  "#text": "949 MB"}, {
+                  "#text": "995277330"}, {"#text": "false"}
+              ]
+            }
+          }, {
+            "-description": "Assay details as reported in a scientific document.",
+            "indexInfos": {
+              "indexInfo": [{
+                  "#text": "1246683"},{
+                  "#text": "https://www.ebi.ac.uk/chembl"}, {
+                  "#text": "344 MB"}, {
+                  "#text": "360859348"}, {"#text": "false"}
+              ]
+            }
+          }, {
+            "-description": "ChEMBL Document",
+            "indexInfos": {
+              "indexInfo": [{
+                  "#text": "65212"},{
+                  "#text": "https://www.ebi.ac.uk/chembl"}, {
+                  "#text": "10 MB"}, {
+                  "#text": "10497534"}, {"#text": "false"}
+              ]
+            }
+          }, {
+            "-description": "Curated compound set used in ChEMBL database.",
+            "indexInfos": {
+              "indexInfo": [{
+                  "#text": "1686695"},{
+                  "#text": "https://www.ebi.ac.uk/chembl"}, {
+                  "#text": "492 MB"}, {
+                  "#text": "516140479"}, {"#text": "false"}
+              ]
+            }
+          }, {
+            "-description": "Curated target set used in ChEMBL database. Includes both protein targets and non-protein targets (e.g., organisms, tissues, cell lines)",
+            "indexInfos": {
+              "indexInfo": [{
+                  "#text": "11224"},{
+                  "#text": "https://www.ebi.ac.uk/chembl"}, {
+                  "#text": "16 MB"}, {
+                  "#text": "17146104"}, {"#text": "false"}
+              ]
+            }
+          }, {
+            "-description": "ChEMBL Target Component",
+            "indexInfos": {
+              "indexInfo": [{
+                  "#text": "7428"},{
+                  "#text": "https://www.ebi.ac.uk/chembl"}, {
+                  "#text": "1 MB"}, {
+                  "#text": "1609245"}, {"#text": "false"}
+              ]
+            }
+          }]
+        }
+      }, {
+        "-description": "Library of ligands, small molecules and monomers",
+        "indexInfos": {
+          "indexInfo": [{
+            "#text": "19672"}, {
+            "#text": "https://www.ebi.ac.uk/pdbe-srv/pdbechem/"}, {
+            "#text": "6 MB"}, {
+            "#text": "6961833"}, {"#text": "false"}]
+        }
+      }]
+    }
+  }, {
+    "subdomains": {
+      "domain": [{
+        "-description": "ArrayExpress Archive is a MIAME compliant public database for microarray data.",
+        "indexInfos": {
+          "indexInfo": [{
+            "#text": "69365"}, {
+            "#text": "https://www.ebi.ac.uk/arrayexpress"}, {
+            "#text": "400 MB"}, {
+            "#text": "419888504"}, {"#text": "false"}]
+        }
+      }, {
+        "-description": "Expression Atlas Experiments",
+        "indexInfos": {
+          "indexInfo": [{
+            "#text": "2913"}, {
+            "#text": "https://www.ebi.ac.uk/gxa"}, {
+            "#text": "78 MB"}, {
+            "#text": "82794995"}, {"#text": "false"}]
+        }
+      }, {
+        "-description": "Large scale meta-analysis of public transcriptomics data",
+        "indexInfos": {
+          "indexInfo": [{
+            "#text": "832273"}, {
+            "#text": "https://www.ebi.ac.uk/gxa"}, {
+            "#text": "983 MB"}, {
+            "#text": "1031300694"}, {"#text": "false"}]
+        }
+      }, {
+        "-description": "Large scale meta-analysis of public transcriptomics data",
+        "indexInfos": {
+          "indexInfo": [{
+            "#text": "377818"}, {
+            "#text": "https://www.ebi.ac.uk/gxa"}, {
+            "#text": "389 MB"}, {
+            "#text": "408541440"}, {"#text": "false"}]
+        }
+      }]
+    }
+  }, {
+    "subdomains": {
+          "domain": [{
+            "-description": "Proteins taking part in molecular interactions",
+            "indexInfos": {
+              "indexInfo": [{
+                  "#text": "1776"},{
+                  "#text": "https://www.ebi.ac.uk/intact/"}, {
+                  "#text": "1 MB"}, {
+                  "#text": "2008446"}, {"#text": "false"}
+              ]
+            }
+          }, {
+            "-description": "Experimental procedures used to characterise molecular interactions",
+            "indexInfos": {
+              "indexInfo": [{
+                  "#text": "38763"},{
+                  "#text": "https://www.ebi.ac.uk/intact/"}, {
+                  "#text": "11 MB"}, {
+                  "#text": "12476872"}, {"#text": "false"}
+              ]
+            }
+          }, {
+            "-description": "Descriptions of molecular interactions",
+            "indexInfos": {
+              "indexInfo": [{
+                  "#text": "452795"},{
+                  "#text": "https://www.ebi.ac.uk/intact/"}, {
+                  "#text": "43 MB"}, {
+                  "#text": "45837947"}, {"#text": "false"}
+              ]
+            }
+          }, {
+            "-description": "Proteins taking part in molecular interactions",
+            "indexInfos": {
+              "indexInfo": [{
+                  "#text": "93096"},{
+                  "#text": "https://www.ebi.ac.uk/intact/"}, {
+                  "#text": "48 MB"}, {
+                  "#text": "50609940"}, {"#text": "false"}
+              ]
+            }
+          }]
+        }
+  }, {
+    "subdomains": {
+      "domain": [{
+        "-description": "Database of Mathematical models of biological interest",
+        "indexInfos": {
+          "indexInfo": [{
+            "#text": "144553"}, {
+            "#text": "https://www.ebi.ac.uk/biomodels"}, {
+            "#text": "62 MB"}, {
+            "#text": "65369283"}, {"#text": "false"}]
+        }
+      }, {
+        "-description": "Human diseases",
+        "indexInfos": {
+          "indexInfo": [{
+            "#text": "4809"}, {
+            "#text": "/ebi/ftp/private/uniprot/knowledgebase/docs/humdisease.txt"}, {
+            "#text": "1 MB"}, {
+            "#text": "2023713"}, {
+            "#text": "true"}]
+        }
+      }, {
+        "-description": "Database for Metabolomics experiments and derived information",
+        "indexInfos": {
+          "indexInfo": [{
+            "#text": "24592"}, {
+            "#text": "https://www.ebi.ac.uk/metabolights/"}, {
+            "#text": "12 MB"}, {
+            "#text": "13061762"}, {"#text": "false"}]
+        }
+      }, {
+        "-description": "Database for Metabolomics experiments and derived information",
+        "indexInfos": {
+          "indexInfo": [{
+            "#text": "186"}, {
+            "#text": "http://www.ebi.ac.uk/metabolights/"}, {
+            "#text": "4 MB"}, {
+            "#text": "4981186"}, {
+            "#text": "true"}]
+        }
+      }, {
+        "-description": "MetabolomeExpress: a public place to process, interpret and share GC/MS metabolomics datasets.",
+        "indexInfos": {
+          "indexInfo": [{
+            "#text": "58"}, {
+            "#text": "http://www.metabolome-express.org/"}, {
+            "#text": "402 KB"}, {
+            "#text": "411727"}, {"#text": "false"}]
+        }
+      }, {
+        "-description": "The Metabolomics Workbench will serve as a national and international repository for metabolomics data and metadata and will provide analysis tools and access to metabolite standards, protocols, tutorials, training, and more.",
+        "indexInfos": {
+          "indexInfo": [{
+            "#text": "283"}, {
+            "#text": "http://www.metabolomicsworkbench.org/"}, {
+            "#text": "1 MB"}, {
+            "#text": "1212030"}, {"#text": "false"}]
+        }
+      }, {
+        "-description": "OMIM Online Mendelian Inheritance in Man",
+        "indexInfos": {
+          "indexInfo": [{
+              "#text": "24518"}, {
+              "#text": "http://europe.omim.org"}, {
+              "#text": "126 MB"}, {
+              "#text": "132745352"}, {"#text": "false"}
+          ]
+        }
+      }, {
+        "-description": "Database of core biochemical pathways and reactions",
+        "indexInfos": {
+          "indexInfo": [{
+              "#text": "578939"}, {
+              "#text": "http://www.reactome.org"}, {
+              "#text": "239 MB"}, {
+              "#text": "251219728"}, {"#text": "false"}
+          ]
+        }
+      }, {
+        "-description": "Manually annotated database of chemical reactions created in collaboration with the Swiss Institute of Bioinformatics (SIB).",
+        "indexInfos": {
+          "indexInfo": [{
+            "#text": "38912"}, {
+            "#text": "https://www.ebi.ac.uk/rhea"}, {
+            "#text": "9 MB"}, {
+            "#text": "9545981"}, {"#text": "false"}]
+        }
+      }]
+    }
+  }, {
+    "subdomains": {
+      "domain": [{
+        "-description": "Database of G Protein-Coupled Receptors",
+        "indexInfos": {
+          "indexInfo": [{
+            "#text": "62615"}, {
+            "#text": "http://www.gpcr.org/7tm/"}, {
+            "#text": "5 MB"}, {
+            "#text": "5909141"}, {"#text": "false"}]
+        }
+      }, {
+        "-description": "HMMER webserver",
+        "indexInfos": {
+          "indexInfo": [{
+            "#text": "21155"}, {
+            "#text": "http://www.ebi.ac.uk/Tools/hmmer"}, {
+            "#text": "2 MB"}, {
+            "#text": "3132622"}, {
+            "#text": "true"}]
+        }
+      }, {
+        "-description": "HMMER webserver",
+        "indexInfos": {
+          "indexInfo": [{
+            "#text": "139890533"}, {
+            "#text": "http://www.ebi.ac.uk/Tools/hmmer"}, {
+            "#text": "38 GB"}, {
+            "#text": "41524467787"}, {
+            "#text": "true"}]
+        }
+      }, {
+        "-description": "Database of protein families, domains and functional sites",
+        "indexInfos": {
+          "indexInfo": [{
+            "#text": "29774"}, {
+            "#text": "https://www.ebi.ac.uk/interpro"}, {
+            "#text": "1 GB"}, {
+            "#text": "1740548311"}, {"#text": "false"}]
+        }
+      }, {
+        "-description": "Database of protein families, domain and function matches",
+        "indexInfos": {
+          "indexInfo": [{
+            "#text": "74329555"}, {
+            "#text": "https://www.ebi.ac.uk"}, {
+            "#text": "11 GB"}, {
+            "#text": "11850165653"}, {
+            "#text": "true"}]
+        }
+      }, {
+        "-description": "a large collection of protein families",
+        "indexInfos": {
+          "indexInfo": [{
+            "#text": "16306"}, {
+            "#text": "http://pfam.xfam.org/"}, {
+            "#text": "8 MB"}, {
+            "#text": "8455178"}, {"#text": "false"}]
+        }
+      }, {
+        "-description": "TreeFam is a database of gene trees of animal protein families.",
+        "indexInfos": {
+          "indexInfo": [{
+            "#text": "15736"}, {
+            "#text": "http://www.treefam.org"}, {
+            "#text": "44 MB"}, {
+            "#text": "46461545"}, {"#text": "false"}]
+        }
+      }, {
+        "subdomains": {
+          "domain": [{
+            "-description": "MEROPS Id Peptidase Database",
+            "indexInfos": {
+              "indexInfo": [{
+                  "#text": "5457"},{
+                  "#text": "http://merops.sanger.ac.uk/"}, {
+                  "#text": "19 MB"}, {
+                  "#text": "20199857"}, {"#text": "false"}
+              ]
+            }
+          }, {
+            "-description": "MEROPS Clan Peptidase Database",
+            "indexInfos": {
+              "indexInfo": [{
+                  "#text": "88"},{
+                  "#text": "http://merops.sanger.ac.uk/"}, {
+                  "#text": "76 KB"}, {
+                  "#text": "78513"}, {"#text": "false"}
+              ]
+            }
+          }, {
+            "-description": "MEROPS Family Peptidase Database",
+            "indexInfos": {
+              "indexInfo": [{
+                  "#text": "303"},{
+                  "#text": "http://merops.sanger.ac.uk/"}, {
+                  "#text": "464 KB"}, {
+                  "#text": "476096"}, {"#text": "false"}
+              ]
+            }
+          }]
+        }
+      }]
+    }
+  }, {
+    "subdomains": {
+      "domain": [{
+        "-description": "The Global Natural Product Social Molecular Networking (GNPS) site creates a community for natural product researchers working with mass spectrometry data.",
+        "indexInfos": {
+          "indexInfo": [{
+            "#text": "318"}, {
+            "#text": "https://gnps.ucsd.edu/"}, {
+            "#text": "379 KB"}, {
+            "#text": "388498"}, {"#text": "false"}]
+        }
+      }, {
+        "-description": "The Global Proteome Machine",
+        "indexInfos": {
+          "indexInfo": [{
+            "#text": "367"}, {
+            "#text": "http://www.thegpm.org"}, {
+            "#text": "12 MB"}, {
+            "#text": "13103011"}, {"#text": "false"}]
+        }
+      }, {
+        "-description": "The Mass spectrometry Interactive Virtual Environment (MassIVE) is a community resource developed by the NIH-funded Center for Computational Mass Spectrometry to promote the global, free exchange of mass spectrometry data.",
+        "indexInfos": {
+          "indexInfo": [{
+            "#text": "361"}, {
+            "#text": "http://massive.ucsd.edu/ProteoSAFe/"}, {
+            "#text": "762 KB"}, {
+            "#text": "781295"}, {"#text": "false"}]
+        }
+      }, {
+        "-description": "PeptideAtlas is a multi-organism, publicly accessible compendium of peptides identified in a large set of tandem mass spectrometry proteomics experiments.",
+        "indexInfos": {
+          "indexInfo": [{
+            "#text": "2365"}, {
+            "#text": "http://www.peptideatlas.org"}, {
+            "#text": "43 MB"}, {
+            "#text": "45617428"}, {"#text": "false"}]
+        }
+      }, {
+        "-description": "PRoteomics IDEntifications (PRIDE) database",
+        "indexInfos": {
+          "indexInfo": [{
+            "#text": "3000"}, {
+            "#text": "http://www.ebi.ac.uk/pride"}, {
+            "#text": "82 MB"}, {
+            "#text": "86825245"}, {"#text": "false"}]
+        }
+      }]
+    }
+  }, {
+    "subdomains": {
+      "domain": [{
+        "-description": "The Enzyme Portal integrates publicly available information about enzymes, such as small-molecule chemistry, biochemical pathways and drug compounds.",
+        "indexInfos": {
+          "indexInfo": [{
+            "#text": "10262502"}, {
+            "#text": "https://www.ebi.ac.uk/enzymeportal/"}, {
+            "#text": "1 GB"}, {
+            "#text": "1722724984"}, {"#text": "false"}]
+        }
+      }, {
+        "-description": "The Enzyme Portal integrates publicly available information about enzymes, such as small-molecule chemistry, biochemical pathways and drug compounds.",
+        "indexInfos": {
+          "indexInfo": [{
+            "#text": "6095"}, {
+            "#text": "https://www.ebi.ac.uk/enzymeportal/"}, {
+            "#text": "630 MB"}, {
+            "#text": "660726474"}, {"#text": "false"}]
+        }
+      }, {
+        "-description": "Integrated relational Enzyme database",
+        "indexInfos": {
+          "indexInfo": [{
+            "#text": "7435"}, {
+            "#text": "https://www.ebi.ac.uk/intenz"}, {
+            "#text": "7 MB"}, {
+            "#text": "7794349"}, {"#text": "false"}]
+        }
+      }]
+    }
+  }, {
+    "subdomains": {
+      "domain": [{
+        "-description": "Citations and abstracts from many life-science journals",
+        "indexInfos": {
+          "indexInfo": [{
+            "#text": "26950396"}, {
+            "#text": "http://europepmc.org/"}, {
+            "#text": "30 GB"}, {
+            "#text": "32907129262"}, {"#text": "false"}]
+        }
+      }, {
+        "-description": "Patent Families (Patent Equivalents)",
+        "indexInfos": {
+          "indexInfo": [{
+            "#text": "119710"}, {
+            "#text": "https://www.ebi.ac.uk/patentdata"}, {
+            "#text": "49 MB"}, {
+            "#text": "52053806"}, {"#text": "false"}]
+        }
+      }, {
+        "-description": "Biology-related abstracts of patent applications",
+        "indexInfos": {
+          "indexInfo": [{
+            "#text": "4239074"}, {
+            "#text": "https://www.ebi.ac.uk/patentdata"}, {
+            "#text": "2 GB"}, {
+            "#text": "2844708135"}, {"#text": "false"}]
+        }
+      }]
+    }
+  }, {
+    "subdomains": {
+      "domain": [{
+        "-description": "The BioSamples database aggregates sample information for reference samples e.g. Coriell Cell lines and samples for which data exist in one of the EBI's assay databases such as ArrayExpress, the European Nucleotide Archive, or PRIDE. It provides links to assays for specific samples, and accepts direct submissions of samples.",
+        "indexInfos": {
+          "indexInfo": [{
+            "#text": "4844637"}, {
+            "#text": "https://www.ebi.ac.uk/biosamples"}, {
+            "#text": "1 GB"}, {
+            "#text": "1634488450"}, {"#text": "false"}]
+        }
+      }, {
+        "-description": "The BioSamples database aggregates sample information for reference samples e.g. Coriell Cell lines and samples for which data exist in one of the EBI's assay databases such as ArrayExpress, the European Nucleotide Archive, or PRIDE. It provides links to assays for specific samples, and accepts direct submissions of samples.",
+        "indexInfos": {
+          "indexInfo": [{
+            "#text": "57795"}, {
+            "#text": "https://www.ebi.ac.uk/biosamples"}, {
+            "#text": "107 MB"}, {
+            "#text": "112946105"}, {"#text": "false"}]
+        }
+      }, {
+        "-description": "Experimental Factor Ontology (EFO)",
+        "indexInfos": {
+          "indexInfo": [{
+              "#text": "8040"}, {
+              "#text": "https://www.ebi.ac.uk/efo"}, {
+              "#text": "437 KB"}, {
+              "#text": "448053"}, {"#text": "false"}
+          ]
+        }
+      }, {
+        "-description": "Elixir registry",
+        "indexInfos": {
+          "indexInfo": [{
+              "#text": "2624"}, {
+              "#text": "https://www.ebi.ac.uk/ena/about/taxonomy"}, {
+              "#text": "1016 KB"}, {
+              "#text": "1040877"}, {"#text": "false"}
+          ]
+        }
+      }, {
+        "-description": "Gene Ontology",
+        "indexInfos": {
+          "indexInfo": [{
+              "#text": "46473"}, {
+              "#text": "https://www.ebi.ac.uk/QuickGO"}, {
+              "#text": "13 MB"}, {
+              "#text": "14547406"}, {"#text": "false"}
+          ]
+        }
+      }, {
+        "-description": "Identifiers.org is a system providing resolvable persistent URIs used to identify data for the scientific community, with a current focus on the Life Sciences domain.",
+        "indexInfos": {
+          "indexInfo": [{
+            "#text": "1317"}, {
+            "#text": "http://identifiers.org/"}, {
+            "#text": "529 KB"}, {
+            "#text": "541880"}, {"#text": "false"}]
+        }
+      }, {
+        "-description": "Medical Subject Headings (MeSH)",
+        "indexInfos": {
+          "indexInfo": [{
+            "#text": "28472"}, {
+            "#text": "https://www.ncbi.nlm.nih.gov/mesh"}, {
+            "#text": "5 MB"}, {
+            "#text": "6289133"}, {"#text": "false"}]
+        }
+      }, {
+        "-description": "The Ontology Lookup Service(OLS) is a repository for biomedical ontologies that aims to provide a single point of access to the latest ontology versions. The user can browse the ontologies through the website as well as programmatically via the OLS API.",
+        "indexInfos": {
+          "indexInfo": [{
+            "#text": "1100767"}, {
+            "#text": "https://www.ebi.ac.uk/ols/"}, {
+            "#text": "106 MB"}, {
+            "#text": "111381595"}, {"#text": "false"}]
+        }
+      }, {
+        "-description": "Systems Biology Ontology",
+        "indexInfos": {
+          "indexInfo": [{
+              "#text": "646"}, {
+              "#text": "https://www.ebi.ac.uk/sbo/main/"}, {
+              "#text": "169 KB"}, {
+              "#text": "173757"}, {"#text": "false"}
+          ]
+        }
+      }, {
+        "-description": "NCBI Taxonomy database of Organism names",
+        "indexInfos": {
+          "indexInfo": [{
+            "#text": "1572521"}, {
+            "#text": "https://www.ebi.ac.uk/ena/about/taxonomy"}, {
+            "#text": "131 MB"}, {
+            "#text": "137705011"}, {"#text": "false"}]
+        }
+      }]
+    }
+  }, {
+    "subdomains": {
+      "domain": [{
+        "-description": "EBI resources",
+        "indexInfos": {
+          "indexInfo": [{
+            "#text": "270"}, {
+            "#text": "https://www.ebi.ac.uk/services"}, {
+            "#text": "132 KB"}, {
+            "#text": "135862"}, {"#text": "false"}]
+        }
+      }, {
+        "-description": "EBI people",
+        "indexInfos": {
+          "indexInfo": [{
+            "#text": "692"}, {
+            "#text": "https://www.ebi.ac.uk/about/people"}, {
+            "#text": "215 KB"}, {
+            "#text": "220825"}, {"#text": "false"}]
+        }
+      }, {
+        "-description": "EBI site",
+        "indexInfos": {
+          "indexInfo": [{
+            "#text": "9495"}, {
+            "#text": "https://www.ebi.ac.uk"}, {
+            "#text": "150 MB"}, {
+            "#text": "157574615"}, {"#text": "false"}]
+        }
+      }]
+    }
+  }] 
+}
