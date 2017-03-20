@@ -21,7 +21,7 @@ d3.json("data.json", function(error, graph) {
     .html(function(d) { 
       // console.log(isNaN(parseInt(d.filesize)));
       // return "" + (isNaN(parseInt(d.filesize)) ? (Math.floor(d.size/1000000)+"M") : d.filesize); 
-      return "" + Math.floor(d.size/1000000)+"M"; 
+      return Math.floor(d.size/10000)/100+"M" + "<br/>" + d.name;  
     })
   ;
   svg.call(tool_tip);
@@ -131,8 +131,8 @@ d3.json("data.json", function(error, graph) {
       })
   ;
 
-  node.append("title")
-    .text(function(d) { return d.name; });
+  // node.append("title")
+  //   .text(function(d) { return d.name; });
 
   simulation.force("link")
       .links(graph.links)
@@ -198,7 +198,7 @@ d3.json("data.json", function(error, graph) {
 });
 
 // Legend
-var linearSize = d3.scalePow().exponent(.25).domain([0,80000000]).range([1, 20]);
+var linearSize = d3.scalePow().exponent(.19).domain([0,80000000]).range([1, 25]);
 
 svg.append("g")
   .attr("class", "legendSize")
@@ -359,7 +359,7 @@ function customStratify(data) {
                   if (activeSubSubdomainRecord['-description'] != undefined) {
                     var activeSubSubdomainName = activeSubSubdomainRecord['-description'];
                   } else {
-                    var activeSubSubdomainName = 'xxx';                    
+                    var activeSubSubdomainName = ' ';                    
                   }
 
                   newData.nodes.push( { "id": activeSubSubdomainName+'-'+i+'-'+i2+'-'+i3+'-'+i4, "name": activeSubSubdomainName, "group": i, "size": activeSubSubdomainRecord.indexInfos.indexInfo[0]['#text'], "level": 4, "x": fixedX, "y": fixedY });
