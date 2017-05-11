@@ -18,10 +18,10 @@ d3.json("data.json", function(error, graph) {
   var tool_tip = d3.tip()
     .attr("class", "d3-tip")
     .offset([-8, 0])
-    .html(function(d) { 
+    .html(function(d) {
       // console.log(isNaN(parseInt(d.filesize)));
-      // return "" + (isNaN(parseInt(d.filesize)) ? (Math.floor(d.size/1000000)+"M") : d.filesize); 
-      return Math.floor(d.size/10000)/100+"M" + "<br/>" + d.name;  
+      // return "" + (isNaN(parseInt(d.filesize)) ? (Math.floor(d.size/1000000)+"M") : d.filesize);
+      return Math.floor(d.size/10000)/100+"M" + "<br/>" + d.name;
     })
   ;
   svg.call(tool_tip);
@@ -121,13 +121,13 @@ d3.json("data.json", function(error, graph) {
           .on('tick', d => {
               makeAnnotations.annotations()
               .forEach((d, i) => {
-                const match = noteBoxes[i]  
-                  d.dx = match.x - match.positionX 
-                  d.dy = match.y - match.positionY 
+                const match = noteBoxes[i]
+                  d.dx = match.x - match.positionX
+                  d.dy = match.y - match.positionY
               })
               // makeAnnotations.update()
           })
-        
+
       })
   ;
 
@@ -143,7 +143,7 @@ d3.json("data.json", function(error, graph) {
     .delay(1000)
     .attr("opacity", 1)
   ;
-  
+
   d3.selectAll(".legendSize")
     .transition(t)
       .delay(1900)
@@ -213,7 +213,7 @@ var legendSize = d3.legendSize()
   .shapePadding(2)
   .labelFormat('.0s')
   .cells(5)
-  .title('Index records')
+  .title('Millions of entries in each domain')
   .labelOffset(15)
   .orient('horizontal')
 ;
@@ -237,7 +237,7 @@ function customStratify(data) {
       i;
 
   for ( i=0; i < len; i+=1 ) {
-    // assign labels 
+    // assign labels
     var parentTitle = 'to generate';
     switch (i) {
       case 0:
@@ -338,7 +338,7 @@ function customStratify(data) {
           if (activeSubdomainRecord['subdomains'] == undefined) {
 
             if (activeSubdomainRecord['-description'] == undefined) {
-              activeSubdomainRecord['-description'] = parentTitle;             
+              activeSubdomainRecord['-description'] = parentTitle;
             }
             var activeSubdomainName = activeSubdomainRecord['-description'];
 
@@ -349,7 +349,7 @@ function customStratify(data) {
             newData.nodes.push( { "id": 'parent-sub-record-'+i+'-'+i2+'-'+i3, "name": activeSubdomainRecord['-description'], "group": i, "size": 100, "level": 4, "x": fixedX, "y": fixedY });
             newData.links.push( { "source": 'parent-sub-record-'+i+'-'+i2+'-'+i3, "target": 'parent-record-'+i, "value": 1 });
 
-            // create node for each child-child search archive --- OY :( 
+            // create node for each child-child search archive --- OY :(
             for ( i4=0; i4 < activeSubdomainRecord['subdomains'].domain.length; i4+=1 ) {
               var activeSubSubdomainRecord = activeSubdomainRecord['subdomains'].domain[i4];
               // not a subtree?
@@ -359,7 +359,7 @@ function customStratify(data) {
                   if (activeSubSubdomainRecord['-description'] != undefined) {
                     var activeSubSubdomainName = activeSubSubdomainRecord['-description'];
                   } else {
-                    var activeSubSubdomainName = ' ';                    
+                    var activeSubSubdomainName = ' ';
                   }
 
                   newData.nodes.push( { "id": activeSubSubdomainName+'-'+i+'-'+i2+'-'+i3+'-'+i4, "name": activeSubSubdomainName, "group": i, "size": activeSubSubdomainRecord.indexInfos.indexInfo[0]['#text'], "level": 4, "x": fixedX, "y": fixedY });
@@ -369,7 +369,7 @@ function customStratify(data) {
                   console.log(activeSubSubdomainRecord);
 
                 }
-              } 
+              }
             } // end i4 loop
           }
         } // end i3 loop
