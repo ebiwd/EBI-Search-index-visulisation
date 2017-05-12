@@ -82,7 +82,7 @@ d3.json("data.json", function(error, graph) {
           // align: "middle",
           // orientation: "fixed"
            },
-        connector: { end: "arrow"  },
+        // connector: { end: "arrow"  },
         subject: { radius: 50, radiusPadding: 10 },
         className: "group-"+d.group
       // .attr("stroke", function(d) { return color(d.group); })
