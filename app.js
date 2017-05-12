@@ -75,6 +75,7 @@ d3.json("data.json", function(error, graph) {
     .type(d3.annotationLabel)
     .annotations(corenodes
     .map((d,i) => {
+      // console.log(d,i);
       return {
         data: {x: d.x, y: d.y, group: d.group},
         note: { label: d.name
@@ -82,7 +83,7 @@ d3.json("data.json", function(error, graph) {
           // orientation: "fixed"
            },
         connector: { end: "arrow"  },
-  subject: { radius: 50, radiusPadding: 10 },
+        subject: { radius: 50, radiusPadding: 10 },
         className: "group-"+d.group
       // .attr("stroke", function(d) { return color(d.group); })
       }
@@ -99,36 +100,33 @@ d3.json("data.json", function(error, graph) {
 
   // simulation
   var simulation = d3.forceSimulation(graph.nodes)
-      .velocityDecay(0.1)
-      .alphaDecay(.1)
-      .alpha(1)
-      // .alphaTarget(.02)
-      .force("x", d3.forceX().strength(0.038))
-      .force("y", d3.forceY().strength(0.238))
-      .force("link", d3.forceLink().id(function(d) { return d.id; }).distance(200).strength(1))
-      .force("collide", d3.forceCollide().radius(function(d) { return Math.sqrt(Math.sqrt(d.size/100))+1; }).strength(1).iterations(10))
-      .force("center", d3.forceCenter(width / 1.7, height / 2.3))
-      .on("tick", ticked)
-      .on("end", function() {
-
-        const noteBoxes = makeAnnotations.collection().noteNodes
-
-         window.labelForce = d3.forceSimulation(noteBoxes)
-          .force("x", d3.forceX(a => a.positionX).strength(a => Math.max(0.25, Math.min(3, Math.abs(a.x - a.positionX) / 20))))
-          .force("y", d3.forceY(a => a.positionY).strength(a => Math.max(0.25, Math.min(3, Math.abs(a.x - a.positionX) / 20))))
-         .force("collision", window.collide)
-          .alpha(0.5)
-          .on('tick', d => {
-              makeAnnotations.annotations()
-              .forEach((d, i) => {
-                const match = noteBoxes[i]
-                  d.dx = match.x - match.positionX
-                  d.dy = match.y - match.positionY
-              })
-              // makeAnnotations.update()
+    .velocityDecay(0.1)
+    .alphaDecay(.1)
+    .alpha(1)
+    // .alphaTarget(.02)
+    .force("x", d3.forceX().strength(0.038))
+    .force("y", d3.forceY().strength(0.238))
+    .force("link", d3.forceLink().id(function(d) { return d.id; }).distance(200).strength(1))
+    .force("collide", d3.forceCollide().radius(function(d) { return Math.sqrt(Math.sqrt(d.size/100))+1; }).strength(1).iterations(10))
+    .force("center", d3.forceCenter(width / 1.7, height / 2.3))
+    .on("tick", ticked)
+    .on("end", function() {
+      const noteBoxes = makeAnnotations.collection().noteNodes
+      window.labelForce = d3.forceSimulation(noteBoxes)
+        .force("x", d3.forceX(a => a.positionX).strength(a => Math.max(0.25, Math.min(3, Math.abs(a.x - a.positionX) / 20))))
+        .force("y", d3.forceY(a => a.positionY).strength(a => Math.max(0.25, Math.min(3, Math.abs(a.x - a.positionX) / 20))))
+       .force("collision", window.collide)
+        .alpha(0.5)
+        .on('tick', d => {
+          makeAnnotations.annotations()
+          .forEach((d, i) => {
+            const match = noteBoxes[i]
+              d.dx = match.x - match.positionX
+              d.dy = match.y - match.positionY
           })
-
-      })
+          // makeAnnotations.update()
+        })
+    })
   ;
 
   // node.append("title")
