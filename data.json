@@ -31,7 +31,7 @@
           ]
         }
       }, {
-        "-description": "A stable genomic reference framework for describing sequence variations",
+        "-description": "LRG genomic reference framework",
         "indexInfos": {
           "indexInfo": [{
             "#text": "961"}, {
@@ -40,16 +40,7 @@
             "#text": "917808"}, {"#text": "false"}]
         }
       }, {
-        "-description": "Metagenomics is the study of all genomes present in any given environment without the need for prior individual identification or amplification.",
-        "indexInfos": {
-          "indexInfo": [{
-            "#text": "937"}, {
-            "#text": "https://www.ebi.ac.uk/metagenomics/"}, {
-            "#text": "2 MB"}, {
-            "#text": "2539495"}, {"#text": "false"}]
-        }
-      }, {
-        "-description": "Metagenomics is the study of all genomes present in any given environment without the need for prior individual identification or amplification.",
+        "-description": "Metagenomics",
         "indexInfos": {
           "indexInfo": [{
             "#text": "77326"}, {
@@ -58,16 +49,7 @@
             "#text": "1267999409"}, {"#text": "false"}]
         }
       }, {
-        "-description": "Metagenomics is the study of all genomes present in any given environment without the need for prior individual identification or amplification.",
-        "indexInfos": {
-          "indexInfo": [{
-            "#text": "57976"}, {
-            "#text": "https://www.ebi.ac.uk/metagenomics/"}, {
-            "#text": "11 MB"}, {
-            "#text": "12543557"}, {"#text": "false"}]
-        }
-      }, {
-        "-description": "root for the Ensembl domains",
+        "-description": "Ensembl domain root",
         "subdomains": {
           "domain": [{
             "-description": "PomBase",
@@ -95,7 +77,7 @@
               }
             }
           }, {
-            "-description": "Non-vertebrate genomes of high scientific interest",
+            "-description": "Non-vertebrate genomes",
             "subdomains": {
               "domain": [{
                 "-description": "Ensembl Genomes Gene",
@@ -154,7 +136,7 @@
   }, {
     "subdomains": {
       "domain": [{
-        "-description": "INSDC Project records from the European Nucleotide Archive",
+        "-description": "INSDC records from ENA",
         "indexInfos": {
           "indexInfo": [{
             "#text": "195250"}, {
@@ -163,7 +145,7 @@
             "#text": "69649297"}, {"#text": "false"}]
         }
       }, {
-        "-description": "Europe's primary nucleotide sequence resource",
+        "-description": "ENA",
         "subdomains": {
           "domain": [{
             "subdomains": {
@@ -377,7 +359,7 @@
             "#text": "30113698"}, {"#text": "false"}]
         }
       }, {
-        "-description": "The IMGT/HLA Database provides a specialist database for sequences of the human major histocompatibility complex (HLA) and includes the official sequences for the WHO Nomenclature Committee For Factors of the HLA System.",
+        "-description": "IMGT/HLA Database",
         "indexInfos": {
           "indexInfo": [{
             "#text": "13641"}, {
@@ -386,7 +368,7 @@
             "#text": "1349777"}, {"#text": "false"}]
         }
       }, {
-        "-description": "The IPD-KIR Database provides a centralised repository for human KIR sequences. Killer-cell Immunoglobulin-like Receptors (KIR) have been shown to be highly polymorphic at the allelic and haplotypic level. KIRs are members of the immunoglobulin superfamily (IgSF) formerly called Killer-cell Inhibitory Receptors.",
+        "-description": "IPD-KIR Database",
         "indexInfos": {
           "indexInfo": [{
             "#text": "709"}, {
@@ -395,7 +377,7 @@
             "#text": "71715"}, {"#text": "false"}]
         }
       }, {
-        "-description": "The IPD-MHC Database provides a centralised repository for sequences of the Major Histocompatibility Complex (MHC) from a number of different species. Nomenclature for MHC genes and alleles in species other than humans and mice has historically been overseen either informally by groups generating sequences, or by formal nomenclature committees set up by the International Society for Animal Genetics (ISAG). This work is now overseen by the Comparative MHC Nomenclature Committee and is supported by ISAG and the Veterinary Immunology Committee (VIC) of the International Union of Immunological Societies (IUIS).",
+        "-description": "IPD-MHC Database",
         "indexInfos": {
           "indexInfo": [{
             "#text": "4003"}, {
@@ -404,7 +386,7 @@
             "#text": "391941"}, {"#text": "false"}]
         }
       }, {
-        "-description": "The RNAcentral sequences are provided by a group of expert databases and supplemented by sequences from the INSDC.",
+        "-description": "RNAcentral",
         "indexInfos": {
           "indexInfo": [{
             "#text": "12214915"}, {
@@ -417,7 +399,7 @@
   }, {
     "subdomains": {
       "domain": [{
-        "-description": "UniProt Knowledge Base of protein sequences",
+        "-description": "UniProt KB",
         "indexInfos": {
           "indexInfo": [{
             "#text": "78037193"}, {
@@ -429,7 +411,7 @@
         "-description": "UniProt Non-redundant Reference Databases",
         "subdomains": {
           "domain": [{
-            "-description": "UniProt Non-redundant Reference Databases - mutual sequence identity of 100%",
+            "-description": "UniProt Non-redundant Reference Databases",
             "indexInfos": {
               "indexInfo": [{
                   "#text": "100769378"},{
@@ -439,7 +421,7 @@
               ]
             }
           }, {
-            "-description": "UniProt Non-redundant Reference Databases - mutual sequence identity of >90%",
+            "-description": "UniProt Non-redundant Reference Databases",
             "indexInfos": {
               "indexInfo": [{
                   "#text": "52629880"},{
@@ -449,7 +431,7 @@
               ]
             }
           }, {
-            "-description": "UniProt Non-redundant Reference Databases - mutual sequence identity of >50%",
+            "-description": "UniProt Non-redundant Reference Databases",
             "indexInfos": {
               "indexInfo": [{
                   "#text": "20905476"},{
@@ -533,7 +515,7 @@
   }, {
     "subdomains": {
       "domain": [{
-        "-description": "The Electron Microscopy Data Bank (EMDB) is a public repository for electron microscopy density maps of macromolecular complexes and subcellular structures. It covers a variety of techniques, including single-particle analysis, electron tomography, and electron (2D) crystallography.",
+        "-description": "The Electron Microscopy Data Bank (EMDB)",
         "indexInfos": {
           "indexInfo": [{
             "#text": "4880"}, {
@@ -577,7 +559,7 @@
               ]
             }
           }, {
-            "-description": "Assay details as reported in a scientific document.",
+            "-description": "Assay details in a scientific document",
             "indexInfos": {
               "indexInfo": [{
                   "#text": "1246683"},{
@@ -597,7 +579,7 @@
               ]
             }
           }, {
-            "-description": "Curated compound set used in ChEMBL database.",
+            "-description": "ChEMBL compound set",
             "indexInfos": {
               "indexInfo": [{
                   "#text": "1686695"},{
@@ -607,7 +589,7 @@
               ]
             }
           }, {
-            "-description": "Curated target set used in ChEMBL database. Includes both protein targets and non-protein targets (e.g., organisms, tissues, cell lines)",
+            "-description": "ChEMBL curated targets",
             "indexInfos": {
               "indexInfo": [{
                   "#text": "11224"},{
@@ -642,7 +624,7 @@
   }, {
     "subdomains": {
       "domain": [{
-        "-description": "ArrayExpress Archive is a MIAME compliant public database for microarray data.",
+        "-description": "ArrayExpress Archive",
         "indexInfos": {
           "indexInfo": [{
             "#text": "69365"}, {
@@ -764,7 +746,7 @@
             "#text": "true"}]
         }
       }, {
-        "-description": "MetabolomeExpress: a public place to process, interpret and share GC/MS metabolomics datasets.",
+        "-description": "MetabolomeExpress",
         "indexInfos": {
           "indexInfo": [{
             "#text": "58"}, {
@@ -773,7 +755,7 @@
             "#text": "411727"}, {"#text": "false"}]
         }
       }, {
-        "-description": "The Metabolomics Workbench will serve as a national and international repository for metabolomics data and metadata and will provide analysis tools and access to metabolite standards, protocols, tutorials, training, and more.",
+        "-description": "Metabolomics Workbench",
         "indexInfos": {
           "indexInfo": [{
             "#text": "283"}, {
@@ -802,7 +784,7 @@
           ]
         }
       }, {
-        "-description": "Manually annotated database of chemical reactions created in collaboration with the Swiss Institute of Bioinformatics (SIB).",
+        "-description": "Rhea chemical reactions",
         "indexInfos": {
           "indexInfo": [{
             "#text": "38912"}, {
@@ -872,7 +854,7 @@
             "#text": "8455178"}, {"#text": "false"}]
         }
       }, {
-        "-description": "TreeFam is a database of gene trees of animal protein families.",
+        "-description": "TreeFam",
         "indexInfos": {
           "indexInfo": [{
             "#text": "15736"}, {
@@ -919,7 +901,7 @@
   }, {
     "subdomains": {
       "domain": [{
-        "-description": "The Global Natural Product Social Molecular Networking (GNPS) site creates a community for natural product researchers working with mass spectrometry data.",
+        "-description": "The Global Natural Product Social Molecular Networking (GNPS)",
         "indexInfos": {
           "indexInfo": [{
             "#text": "318"}, {
@@ -937,7 +919,7 @@
             "#text": "13103011"}, {"#text": "false"}]
         }
       }, {
-        "-description": "The Mass spectrometry Interactive Virtual Environment (MassIVE) is a community resource developed by the NIH-funded Center for Computational Mass Spectrometry to promote the global, free exchange of mass spectrometry data.",
+        "-description": "MassIVE",
         "indexInfos": {
           "indexInfo": [{
             "#text": "361"}, {
@@ -946,7 +928,7 @@
             "#text": "781295"}, {"#text": "false"}]
         }
       }, {
-        "-description": "PeptideAtlas is a multi-organism, publicly accessible compendium of peptides identified in a large set of tandem mass spectrometry proteomics experiments.",
+        "-description": "PeptideAtlas",
         "indexInfos": {
           "indexInfo": [{
             "#text": "2365"}, {
@@ -968,7 +950,7 @@
   }, {
     "subdomains": {
       "domain": [{
-        "-description": "The Enzyme Portal integrates publicly available information about enzymes, such as small-molecule chemistry, biochemical pathways and drug compounds.",
+        "-description": "Enzyme Portal",
         "indexInfos": {
           "indexInfo": [{
             "#text": "10262502"}, {
@@ -977,7 +959,7 @@
             "#text": "1722724984"}, {"#text": "false"}]
         }
       }, {
-        "-description": "The Enzyme Portal integrates publicly available information about enzymes, such as small-molecule chemistry, biochemical pathways and drug compounds.",
+        "-description": "Enzyme Portal",
         "indexInfos": {
           "indexInfo": [{
             "#text": "6095"}, {
@@ -1030,7 +1012,7 @@
   }, {
     "subdomains": {
       "domain": [{
-        "-description": "The BioSamples database aggregates sample information for reference samples e.g. Coriell Cell lines and samples for which data exist in one of the EBI's assay databases such as ArrayExpress, the European Nucleotide Archive, or PRIDE. It provides links to assays for specific samples, and accepts direct submissions of samples.",
+        "-description": "BioSamples database",
         "indexInfos": {
           "indexInfo": [{
             "#text": "4844637"}, {
@@ -1039,7 +1021,7 @@
             "#text": "1634488450"}, {"#text": "false"}]
         }
       }, {
-        "-description": "The BioSamples database aggregates sample information for reference samples e.g. Coriell Cell lines and samples for which data exist in one of the EBI's assay databases such as ArrayExpress, the European Nucleotide Archive, or PRIDE. It provides links to assays for specific samples, and accepts direct submissions of samples.",
+        "-description": "BioSamples",
         "indexInfos": {
           "indexInfo": [{
             "#text": "57795"}, {
@@ -1078,7 +1060,7 @@
           ]
         }
       }, {
-        "-description": "Identifiers.org is a system providing resolvable persistent URIs used to identify data for the scientific community, with a current focus on the Life Sciences domain.",
+        "-description": "Identifiers.org",
         "indexInfos": {
           "indexInfo": [{
             "#text": "1317"}, {
@@ -1096,7 +1078,7 @@
             "#text": "6289133"}, {"#text": "false"}]
         }
       }, {
-        "-description": "The Ontology Lookup Service(OLS) is a repository for biomedical ontologies that aims to provide a single point of access to the latest ontology versions. The user can browse the ontologies through the website as well as programmatically via the OLS API.",
+        "-description": "Ontology Lookup Service",
         "indexInfos": {
           "indexInfo": [{
             "#text": "1100767"}, {
@@ -1156,5 +1138,5 @@
         }
       }]
     }
-  }] 
+  }]
 }
