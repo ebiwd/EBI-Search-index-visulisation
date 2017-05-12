@@ -21,7 +21,14 @@ d3.json("data.json", function(error, graph) {
     .html(function(d) {
       // console.log(isNaN(parseInt(d.filesize)));
       // return "" + (isNaN(parseInt(d.filesize)) ? (Math.floor(d.size/1000000)+"M") : d.filesize);
-      return Math.floor(d.size/10000)/100+"M" + "<br/>" + d.name;
+      var dataSetSize = Math.floor(d.size/10000)/100;
+
+      if (dataSetSize > 0.02) {
+        return dataSetSize+"M" + "<br/>" + d.name;
+      } else {
+        // return thousands of records
+        return Math.floor(d.size/10)/100+"K" + "<br/>" + d.name;
+      }
     })
   ;
   svg.call(tool_tip);

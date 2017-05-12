@@ -168,6 +168,7 @@
           "domain": [{
             "subdomains": {
               "domain": [{
+                "-description": "ENA",
                 "indexInfos": {
                   "indexInfo": [{
                     "#text": "198426387"}, {
@@ -189,6 +190,7 @@
           }, {
             "subdomains": {
               "domain": [{
+                "-description": "ENA",
                 "indexInfos": {
                   "indexInfo": [{
                     "#text": "1512973"}, {
@@ -244,7 +246,7 @@
         "-description": "Next generation sequencing raw data repository from the European Nucleotide Archive",
         "subdomains": {
           "domain": [{
-            "-description": "Next generation sequencing raw data repository from the European Nucleotide Archive (study part)",
+            "-description": "Next gen sequencing raw data from ENA (study)",
             "indexInfos": {
               "indexInfo": [{
                   "#text": "98047"},{
@@ -254,7 +256,7 @@
               ]
             }
           }, {
-            "-description": "Next generation sequencing raw data repository from the European Nucleotide Archive (sample part)",
+            "-description": "Next gen sequencing raw data from ENA (sample)",
             "indexInfos": {
               "indexInfo": [{
                   "#text": "2405653"},{
@@ -264,7 +266,7 @@
               ]
             }
           }, {
-            "-description": "Next generation sequencing raw data repository from the European Nucleotide Archive (run part)",
+            "-description": "Next gen sequencing raw data from ENA (run)",
             "indexInfos": {
               "indexInfo": [{
                   "#text": "3050412"},{
@@ -274,7 +276,7 @@
               ]
             }
           }, {
-            "-description": "Next generation sequencing raw data repository from the European Nucleotide Archive (experiment part)",
+            "-description": "Next gen sequencing raw data from ENA (experimntal)",
             "indexInfos": {
               "indexInfo": [{
                   "#text": "2689618"},{
@@ -284,7 +286,7 @@
               ]
             }
           }, {
-            "-description": "Next generation sequencing raw data repository from the European Nucleotide Archive (analysis part)",
+            "-description": "Next gen sequencing raw data from ENA (analysis)",
             "indexInfos": {
               "indexInfo": [{
                   "#text": "73737"},{
@@ -294,7 +296,7 @@
               ]
             }
           }, {
-            "-description": "Next generation sequencing raw data repository from the European Nucleotide Archive (submission part)",
+            "-description": "Next gen sequencing raw data from ENA (submission)",
             "indexInfos": {
               "indexInfo": [{
                   "#text": "798610"},{
@@ -329,7 +331,7 @@
           }]
         }
       }, {
-        "-description": "European Nucleotide Archive(Whole Genome Shotgun Set)",
+        "-description": "ENA (Whole Genome Shotgun Set)",
         "indexInfos": {
           "indexInfo": [{
             "#text": "88495"}, {
@@ -567,7 +569,7 @@
         "-description": "Database of bioactive drug-like small molecules",
         "subdomains": {
           "domain": [{
-            "-description": "Activity values or end-points that are the results of an assay recorded in a scientific document.",
+            "-description": "Activity values or end-points of an assay recorded",
             "indexInfos": {
               "indexInfo": [{
                   "#text": "14371197"},{
@@ -919,7 +921,7 @@
   }, {
     "subdomains": {
       "domain": [{
-        "-description": "The Global Natural Product Social Molecular Networking (GNPS)",
+        "-description": "GNPS",
         "indexInfos": {
           "indexInfo": [{
             "#text": "318"}, {
