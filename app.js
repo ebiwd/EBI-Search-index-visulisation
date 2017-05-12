@@ -18,9 +18,18 @@ d3.json("data.json", function(error, graph) {
   var tool_tip = d3.tip()
     .attr("class", "d3-tip")
     .offset([-8, 0])
+    .direction(function(d,i) {
+      // console.log(d.x,d.y);
+      if (d.x<580) {
+        return 'e'; // place label to right when we get near left
+      }
+      if (d.x>900) {
+        return 'w'; // place label to left when we get near right
+      }
+
+      return 'n'; //default to above
+    })
     .html(function(d) {
-      // console.log(isNaN(parseInt(d.filesize)));
-      // return "" + (isNaN(parseInt(d.filesize)) ? (Math.floor(d.size/1000000)+"M") : d.filesize);
       var dataSetSize = Math.floor(d.size/10000)/100;
 
       if (dataSetSize > 0.02) {
