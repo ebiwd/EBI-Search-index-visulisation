@@ -43,10 +43,28 @@
         "-description": "Metagenomics",
         "indexInfos": {
           "indexInfo": [{
+            "#text": "937"}, {
+            "#text": "https://www.ebi.ac.uk/metagenomics/"}, {
+            "#text": "2 MB"}, {
+            "#text": "2539495"}, {"#text": "false"}]
+        }
+      }, {
+        "-description": "Metagenomics",
+        "indexInfos": {
+          "indexInfo": [{
             "#text": "77326"}, {
             "#text": "https://www.ebi.ac.uk/metagenomics/"}, {
             "#text": "1 GB"}, {
             "#text": "1267999409"}, {"#text": "false"}]
+        }
+      }, {
+        "-description": "Metagenomics",
+        "indexInfos": {
+          "indexInfo": [{
+            "#text": "57976"}, {
+            "#text": "https://www.ebi.ac.uk/metagenomics/"}, {
+            "#text": "11 MB"}, {
+            "#text": "12543557"}, {"#text": "false"}]
         }
       }, {
         "-description": "Ensembl domain root",
