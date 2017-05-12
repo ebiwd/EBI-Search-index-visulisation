@@ -252,7 +252,9 @@ function customStratify(data) {
 
   for ( i=0; i < len; i+=1 ) {
     // assign labels
-    var parentTitle = 'to generate';
+    var parentTitle = 'to generate',
+        fixedX = 0,
+        fixedY = 0;
     switch (i) {
       case 0:
         parentTitle = 'Genomes & metagenomes';
