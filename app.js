@@ -68,6 +68,9 @@ d3.json("data.json", function(error, graph) {
     .attr("stroke", function(d) { return color(d.group); })
     .on("mouseover", tool_tip.show)
     .on("mouseout", tool_tip.hide)
+    .on("mousedown", function(d) {
+      window.open('https://www.ebi.ac.uk/ebisearch/overview.ebi#table', '_blank');
+    })
 
       // .call(d3.drag()
       //   .on("start", dragstarted)
